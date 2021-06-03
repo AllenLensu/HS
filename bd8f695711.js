@@ -1,4 +1,4 @@
-window.FontAwesomeKitConfig = { "asyncLoading": { "enabled": false }, "autoA11y": { "enabled": true }, "baseUrl": "https://ka-f.fontawesome.com", "baseUrlKit": "https://kit.fontawesome.com", "detectConflictsUntil": "2021-06-03T12:06:04Z", "iconUploads": {}, "id": 101820079, "license": "pro", "method": "css", "minify": { "enabled": true }, "token": "bd8f695711", "v4FontFaceShim": { "enabled": true }, "v4shim": { "enabled": true }, "version": "5.15.3" };
+window.FontAwesomeKitConfig = { "asyncLoading": { "enabled": false }, "autoA11y": { "enabled": true }, "baseUrl": "https://ka-f.fontawesome.com", "baseUrlKit": "https://kit.fontawesome.com", "detectConflictsUntil": "2021-06-03T12:06:04Z", "iconUploads": {}, "id": 101820079, "license": "free", "method": "css", "minify": { "enabled": true }, "token": "bd8f695711", "v4FontFaceShim": { "enabled": true }, "v4shim": { "enabled": true }, "version": "5.15.3" };
 ! function(t) { "function" == typeof define && define.amd ? define("kit-loader", t) : t() }((function() { "use strict";
 
     function t(e) { return (t = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) { return typeof t } : function(t) { return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t })(e) }
@@ -87,7 +87,7 @@ window.FontAwesomeKitConfig = { "asyncLoading": { "enabled": false }, "autoA11y"
     function C(t, e, n) { var r = t; return [
             [/(url\("?)\.\.\/\.\.\/\.\./g, function(t, n) { return "".concat(n).concat(e) }],
             [/(url\("?)\.\.\/webfonts/g, function(t, r) { return "".concat(r).concat(e, "/releases/v").concat(n, "/webfonts") }],
-            [/(url\("?)https:\/\/kit-pro([^.])*\.fontawesome\.com/g, function(t, n) { return "".concat(n).concat(e) }]
+            [/(url\("?)https:\/\/kit-free([^.])*\.fontawesome\.com/g, function(t, n) { return "".concat(n).concat(e) }]
         ].forEach((function(t) { var e = o(t, 2),
                 n = e[0],
                 i = e[1];
