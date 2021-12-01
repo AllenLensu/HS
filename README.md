@@ -1,3 +1,3 @@
-# FindX
+# Find X
 
 - !!! Only For Study !!!
